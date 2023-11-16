@@ -1,0 +1,9 @@
+pages:
+  script:
+    - mkdir public
+    - cp -r * public/
+  artifacts:
+    paths:
+      - public
+  only:
+    - main  # Sostituisci con il nome del tuo branch principale se è diverso
